@@ -88,6 +88,8 @@ body {
 
 .button:hover {
   cursor: pointer;
+  background-color: darkgray;
+  color: black;
 }
 
 .buttonPosition {
@@ -267,6 +269,11 @@ body {
   font-weight: 500;
 }
 
+.link:hover{
+  cursor: pointer;
+  color: black;
+}
+
 .UrlView {
   width: 100%;
   border: 1px solid darkgray;
@@ -363,4 +370,31 @@ body {
   font-size: 16px;
 }
 
+.EnglishLanguageProgress {
+  width: 60%;
+  height: 1rem;
+  background-color: darkgray;
+  border-radius: 16px;
+}
 
+.progress {
+  width: 75%;
+  height: 100%;
+  background-color: #0077b5;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.alignlanguageAndProgress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Urduprogress {
+  width: 100%;
+  height: 100%;
+  background-color: #0077b5;
+  border-radius: 16px;
+}
