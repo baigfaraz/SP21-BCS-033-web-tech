@@ -1,0 +1,99 @@
+.landingpage-top-bg {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffdee9;
+  background-image: linear-gradient(123deg, #ffdee9 0%, #b5fffc 100%);
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.right {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.landingpage-services {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background-image: linear-gradient(298deg, #ffdee9 0%, #b5fffc 100%);
+}
+
+.landingpage-services-top {
+  height: 40%;
+  /* margin-top: 4rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: antiquewhite; */
+}
+
+.services-cards {
+  height: 60%;
+  /* background-color:blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-width {
+  width: 14rem;
+}
+
+.last-cards{
+  background-color: #B5FFFC;
+}
+
+.first-cards{
+  background-color: #FFDEE9;
+}
+
+.about{
+  height: 70vh;
+  background-color: #ffdee9;
+  background-image: linear-gradient(123deg, #ffdee9 0%, #b5fffc 100%);
+  display: flex;
+  flex-direction: row;
+}
+.bcg{
+  background-image: url('./assets/couch-447484_1920.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  z-index: 2222;
+  color:black;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.1;
+  
+
+
+}
