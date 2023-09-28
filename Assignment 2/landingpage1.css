@@ -1,0 +1,50 @@
+.height{
+    height: 100vh;
+}
+.top-border-height{
+height: 5vh;;
+}
+
+.selling-top{
+    height: 20vh;
+}
+.position{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+.bcg{
+    background-image: url('./assets/couch-447484_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2222;
+    color:black;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* background-color: black; */
+    background-color: #191654;
+    opacity: 0.7;
+  }
+
+  .carousel-height{
+    height: 75vh;
+    width: 100%;
+  }
+
+  .bg{
+    background-color: bg-#00bf8f;
+  }
+

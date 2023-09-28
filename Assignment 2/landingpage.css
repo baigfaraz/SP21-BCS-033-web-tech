@@ -81,7 +81,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* position: relative; */
   z-index: 2222;
   color:black;
 }
@@ -93,7 +92,4 @@
   bottom: 0;
   background-color: black;
   opacity: 0.1;
-  
-
-
 }

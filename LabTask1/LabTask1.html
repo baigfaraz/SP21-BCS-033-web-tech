@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <!-- Include Tailwind CSS (you may need to host or install it locally) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include jQuery Validate Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <!-- Include jQuery Validate additional methods (optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded shadow-lg w-96">
+        <h1 class="text-2xl bg-blue-500 font-semibold mb-10 text-center text-white rounded-lgp-1">Register</h1>
+        <!-- <h1 class="text-2l font-semibold mb-4 text-center">Register</h1> -->
+        <form id="registrationForm">
+            <div class="mb-4">
+                <!-- <label for="username" class="block text-gray-600 font-semibold mb-1">Username</label> -->
+                <div class="relative">
+                    <input type="text" id="username" name="username" class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500" required>
+                    <label for="username" class="absolute left-3 -top-2 text-xs text-gray-500 bg-white px-1">Username</label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <!-- <label for="email" class="block text-gray-600 font-semibold mb-1">Email</label> -->
+                <div class="relative">
+                    <input type="email" id="email" name="email" class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500" required>
+                    <label for="email" class="absolute left-3 -top-2 text-xs text-gray-500 bg-white px-1">Email</label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <!-- <label for="password" class="block text-gray-600 font-semibold mb-1">Password</label> -->
+                <div class="relative">
+                    <input type="password" id="password" name="password" class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500" required>
+                    <label for="password" class="absolute left-3 -top-2 text-xs text-gray-500 bg-white px-1">Password</label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <!-- <label for="confirmPassword" class="block text-gray-600 font-semibold mb-1">Confirm Password</label> -->
+                <div class="relative">
+                    <input type="password" id="confirmPassword" name="confirmPassword" class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500" required>
+                    <label for="confirmPassword" class="absolute left-3 -top-2 text-xs text-gray-500 bg-white px-1">Confirm Password</label>
+                </div>
+            </div>
+            <div class="mt-6 text-center">
+                <button type= "submit" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Initialize jQuery Validate Plugin
+        $(document).ready(function () {
+            $("#registrationForm").validate({
+                rules: {
+                    username: {
+                        required: true,
+                        minlength: 5
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                        minlength: 8
+                    },
+                    confirmPassword: {
+                        required: true,
+                        equalTo: "#password"
+                    }
+                },
+                messages: {
+                    username: {
+                        required: "Please enter a username",
+                        minlength: "Username must be at least 5 characters"
+                    },
+                    email: {
+                        required: "Please enter a valid email address",
+                        email: "Please enter a valid email address"
+                    },
+                    password: {
+                        required: "Please enter a password",
+                        minlength: "Password must be at least 8 characters"
+                    },
+                    confirmPassword: {
+                        required: "Please confirm your password",
+                        equalTo: "Passwords do not match"
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
