@@ -32,12 +32,13 @@
   <body
     class="bg-light d-flex align-items-center justify-content-center vh-100"
   >
+    <% if (user) { %>
     <div class="container">
       <div class="row mt-5">
         <div class="col-md-6">
           <div class="card">
             <div class="card-header">
-              <h2>Welcome Furniro</h2>
+              <h2>Welcome, <%= user %>! <a href="/logout">Logout</a></h2>
             </div>
             <div class="card-body">
               <!-- Product Upload Form -->
@@ -124,7 +125,6 @@
                     class="btn btn-danger btn-sm float-right"
                     >Delete</a
                   >
-                  <a href="/product/updateProductById/<%= product._id %>" class="btn btn-primary btn-sm float-right mr-2">Update</a>
                   <!-- Add an Update link or button here for updating products -->
                 </li>
                 <% }); %>
@@ -137,5 +137,8 @@
         </div>
       </div>
     </div>
+    <% } else { %>
+    <!-- Include your login form or redirect to the login page -->
+    <%- include('Login') %> <% } %>
   </body>
 </html>
