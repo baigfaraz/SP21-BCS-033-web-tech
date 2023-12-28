@@ -1,0 +1,318 @@
+.home1 {
+  height: 100vh;
+  width: 100%;
+}
+
+.home-1-1 {
+  height: 10%;
+}
+
+.image1 {
+  height: 318px;
+  width: 477px;
+  border-radius: 70px;
+  box-shadow: 16px 16px 20px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.home1-2 {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home1-2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.home1-2-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.image2 {
+  float: right;
+  top: 0;
+  width: 228px;
+  height: 300px;
+}
+
+.home2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 19px;
+}
+
+.home2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.home4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.home5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.inputField {
+  width: 70%;
+  height: 50px;
+  padding-left: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  outline: none;
+}
+.button {
+  height: 50px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home5-1 {
+  height: 50px;
+  width: 10%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  border-top: 2px solid #114683;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: center;
+}
+
+.footerLogo {
+  align-self: center;
+  margin-right: 2rem;
+}
+
+.footerHeading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.link:hover {
+  color: #903d10;
+  cursor: pointer;
+}
+
+.HeaderLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin-left: 2rem;
+  border-color: 2px solid #114683;
+  background-color: white;
+}
+
+.HeaderHeading {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #114683;
+}
+
+.headerList {
+  margin-right: 3rem;
+  gap: 2rem;
+}
+
+.headerList:hover {
+  color: #903d10;
+  cursor: pointer;
+}
+
+.cart:hover {
+  color: #903d10;
+  cursor: pointer;
+}
+
+.MainHeading{
+  font-size: 45px;
+  font-weight: bold;
+  color: #903d10;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paragrapgh{
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutUsHeading{
+  font-size:30px;
+  font-weight: bold;
+  color: #222222;
+  margin-bottom: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.categoriesHeading{
+  font-size:30px;
+  font-weight: bold;
+  color: #222222;
+  margin-bottom: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.searchBarArea{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 2px 2px 2px 2px rgba(0.1, 0.1, 0.1, 0.1);
+  margin-top: 2rem ;
+}
+
+.shopProductHeading{
+  font-size:30px;
+  font-weight: bold;
+  color: #222222;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  /* text-align: center; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.pagination2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.paginationNumber{
+  font-size: 17px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #222222;
+  background-color: #E6ECF2;
+  padding: 3px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputField ::placeholder{
+  color:#114688;
+}
+
+.cardDecoration{
+  text-decoration: none;
+}
+
+.ProductImageAndDetail{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.product1{
+  height: 100vh;
+}
+.headerHeight{
+  height: 10%;
+}
+
+.product1-2{
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.productImage{
+  height: 60%;
+  border-radius: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
